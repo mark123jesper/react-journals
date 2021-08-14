@@ -11,7 +11,7 @@ const MainCardTaskContents = ({ taskAll, deleteItem, deleteHandler }) => {
                             {item.taskDate}
                             <div className='d-flex justify-content-between'>
                                 <input type='checkbox' />
-                                <i onClick={() => deleteItem(item.thoughtKey)} className="fas fa-trash ms-2"></i>
+                                <i onClick={() => deleteItem(item.taskKey)} className="fas fa-trash ms-2"></i>
                             </div>
                         </div>
 
