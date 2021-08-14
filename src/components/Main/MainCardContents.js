@@ -4,7 +4,7 @@ const MainCardContents = ({ thoughtAll, deleteHandler, deleteItem }) => {
 
     return (
         <div>            
-            {thoubghtAll.map((item) => (
+            {thoughtAll.map((item) => (
                 <div key={item.thoughtKey}>
                     <div className='row'>
                         <div className='col-12 d-flex justify-content-between'>
