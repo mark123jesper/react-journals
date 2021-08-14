@@ -1,0 +1,61 @@
+/* CARDS FOR  THOUGHTS*/
+.card {
+    flex: 1 1 48%;
+    margin: 0.5rem;
+    background-color: #00000022;
+    border: 1px solid black;
+    position: relative;
+}
+
+.cardHeader   {
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
+
+.card .cardContents {
+    border: 1px solid #00000044;
+    border-radius: 5px;
+    padding: 0.5rem;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.mainCardTextArea .contentBtn {
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #00000033;
+    border: none;
+    width: 50%;
+    transition: 0.3s;
+    box-shadow: 0 9px #999;
+  }
+
+.mainCardTextArea .contentBtn:hover {
+    background-color: #00000088;
+    color: white;
+    transition: 0.3s;
+}
+
+.mainCardTextArea .contentBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.card .contentBtn {
+    transform: scale(0.9) 1s;
+}
+
+form .textArea {
+    resize: vertical;
+}
